@@ -39,7 +39,6 @@ export default {
     save() {
       this.$emit("saveImg");
       this.imageUrl = this.$refs.myCanvas.toDataUrl();
-      console.log(this.cvs);
     },
     clear() {},
     undo() {},

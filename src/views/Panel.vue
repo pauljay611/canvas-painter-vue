@@ -89,14 +89,8 @@
 
 <script>
 // @ is an alias to /src
-import Controller from "@/components/Controller.vue";
-import Painter from "@/components/Painter.vue";
 export default {
   name: "panel",
-  components: {
-    Controller,
-    Painter
-  },
   data() {
     return {
       ctx: null,
@@ -127,7 +121,6 @@ export default {
         this.cStep--;
         let canvasPic = new Image();
         canvasPic.src = this.snapshot[this.cStep - 1];
-        console.log(canvasPic);
         canvasPic.onload = () => {
           this.ctx.drawImage(canvasPic, 0, 0);
         };
@@ -139,7 +132,6 @@ export default {
         this.cStep++;
         let canvasPic = new Image();
         canvasPic.src = this.snapshot[this.cStep - 1];
-        console.log(canvasPic);
         canvasPic.onload = () => {
           this.ctx.drawImage(canvasPic, 0, 0);
         };
@@ -182,7 +174,6 @@ export default {
   watch: {
     size() {
       this.ctx.lineWidth = this.size;
-      console.log(this.ctx.lineWidth);
     }
   },
   mounted() {
