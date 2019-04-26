@@ -1,7 +1,7 @@
 # vue-storybook-jest
 > ft.六角學院地下城挑戰 F7畫板
 
-demo:https://upbeat-mccarthy-22471d.netlify.com/#/
+demo: https://upbeat-mccarthy-22471d.netlify.com/#/
 
 ## 工具
 - Canvas
