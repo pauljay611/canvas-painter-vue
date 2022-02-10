@@ -34,7 +34,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "html-loader": "^0.5.5",
     "markdown-loader": "^5.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-storybook": "^0.5.2",
     "vue-markdown-loader": "^2.4.1",
